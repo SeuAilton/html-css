@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="panda.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+    <style>
+        body {
+            background-color: rgb(163, 163, 163);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Imagem dinâmica
+    </h1>
+    <p>
+        Abra esse site em vários dispositivos ou so diminua o tamanho do navegador também funciona.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto-g">
+    </picture>
+    <h1>
+        Reproduzindo Áudios
+    </h1>
+    <p>
+        Aprendendo a reproduzir áudios em HTML5
+    </p>
+    <!-- 
+        <audio src="midia/oholynight-djwilliams.mp3" controls autoplay></audio>
+        MP3 WAV OGG essas são as opções de formato de áudio 
+    -->
+    <audio preload="metadata" controls loop>
+        <source src="midia/goldencage-jimenacontreras.mp3" type="audio/mpeg">
+        <source src="midia/goldencage-jimenacontreras.wav" type="audio/wav">
+        <source src="midia/goldencage-jimenacontreras.ogg" type="audio/ogg">
+        <p>
+            Infelizmente o navegador não consegue reproduzir áudio. <a href="midia/goldencage-jimenacontreras.mp3"></a>Clique aqui para baixar o arquivo.
+        </p>
+    </audio>
+</body>
+</html>

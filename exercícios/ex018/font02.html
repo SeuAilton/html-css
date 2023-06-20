@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Quake';
+            src: url('fonts/dpquake_.ttf') format('truetype'), url('fonts/Quake__.ttf') format('truetype'), url('fonts/quake2.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-att (Apple Advanced Typography)
+            - svg
+            */
+        }
+        @font-face {
+            font-family: 'August';
+            src: url('fonts/Hey August.otf') format('opentype'), url('fonts/Hey August.ttf') format('truetype');
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Quake', 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+        h2 {
+            font-family: 'August', Arial, Helvetica, sans-serif;
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Título £
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit hic officia rem ipsum debitis numquam vero obcaecati nobis nesciunt, recusandae sapiente error suscipit unde accusantium. Tempore ex ab laborum rem?
+    </p>
+    <h2>
+        Subtítulo
+    </h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, obcaecati. Doloribus iste impedit rerum! Accusamus, distinctio iure sequi eum recusandae laborum impedit. Nisi sit modi consectetur quod nam, dicta tempore?
+    </p>
+</body>
+</html>

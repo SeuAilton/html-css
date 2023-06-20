@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            background-color: silver;
+            margin: 0px;
+        }
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.349);
+            border-radius: 5px;
+        }
+        nav {
+            background-color: rgb(180, 197, 197);
+            padding: 3px;
+            margin: 10px;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.349);
+            border-radius: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: brown;
+            font-weight: bold;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            text-align: center;
+        }
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.349);
+            border-radius: 5px;
+        }
+        article {
+            background-color: antiquewhite;
+            padding: 5px;
+            margin: 10px;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.349);
+            border-radius: 5px;
+        }
+        article > aside {
+            background-color: aquamarine;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 2px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Meu site
+        </h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+          <article>
+            <h2>
+                Esporte
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam, molestiae quia ea, corrupti tempora quas ullam tempore possimus deserunt architecto, neque iusto laudantium consectetur magnam rem eius fugiat quibusdam.
+            </p>
+            <aside>
+                <p>
+                    Artigo de Ailton
+                </p>
+            </aside>
+          </article>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>
+                    Notícias
+                </h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, ad quasi laborum possimus exercitationem sapiente provident sed distinctio error deserunt. Impedit assumenda nemo repellat facere sit optio veritatis necessitatibus veniam!
+                </p>
+                <aside>
+                    <p>
+                        Artigo do Seu Ailton.
+                    </p>
+                </aside>
+            </article>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptas, tempore corporis harum quia reiciendis omnis eius recusandae, soluta accusamus ullam ratione? Natus fuga aliquam nemo corrupti? Eius, obcaecati aliquam!
+                </p>
+                <aside>
+                    Artigo do Preludinho.
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Seu Ailton
+        </p>
+    </footer>
+</body>
+</html>
